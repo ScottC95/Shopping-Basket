@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd459b63-cefc-4453-b9b8-f36101cf88fd" name="Administrator@STUDENT08 2015-02-26 14:51:12" runUser="STUDENT08\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b17f929f-9583-4fbc-b57c-501fd1e63686">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_STUDENT08 2015-02-26 14_51_12">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\C#\QA\QA\bin\Debug\QA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-26T14:51:12.5953562+00:00" queuing="2015-02-26T14:51:12.6463591+00:00" start="2015-02-26T14:51:12.6533595+00:00" finish="2015-02-26T14:51:12.9033738+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ClearingTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="4ce13f29-fc11-8ce9-4dd1-a355d87818fa">
+      <Execution id="10322cff-8670-45af-a474-34ef2fa9d95b" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearingTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4ce13f29-fc11-8ce9-4dd1-a355d87818fa" executionId="10322cff-8670-45af-a474-34ef2fa9d95b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="10322cff-8670-45af-a474-34ef2fa9d95b" testId="4ce13f29-fc11-8ce9-4dd1-a355d87818fa" testName="ClearingTest" computerName="STUDENT08" duration="00:00:00.0333836" startTime="2015-02-26T14:51:12.6553596+00:00" endTime="2015-02-26T14:51:12.8893730+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10322cff-8670-45af-a474-34ef2fa9d95b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at QATests.ShoppingBasketTests.ClearingTest() in C:\Users\Administrator\Documents\C#\QA\OrderItemTests\ShoppingBasketTests.cs:line 207
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

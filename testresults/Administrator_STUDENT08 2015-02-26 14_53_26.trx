@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="86747ac6-c951-4d25-9fcd-d211bf4752a0" name="Administrator@STUDENT08 2015-02-26 14:53:26" runUser="STUDENT08\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b17f929f-9583-4fbc-b57c-501fd1e63686">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_STUDENT08 2015-02-26 14_53_26">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\C#\QA\QA\bin\Debug\QA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-26T14:53:26.3810083+00:00" queuing="2015-02-26T14:53:26.4420118+00:00" start="2015-02-26T14:53:26.4530124+00:00" finish="2015-02-26T14:53:26.8020324+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RemoveItemTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="bbf55e7a-17ce-84d5-dfa5-64b3c7f05922">
+      <Execution id="69846575-acd0-46f1-a083-6333d746f8fe" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveItemTest" />
+    </UnitTest>
+    <UnitTest name="TotalOrderTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="24e4ce3a-9715-9471-b51d-9e40c14e3de8">
+      <Execution id="cee373c4-211f-445e-873c-dd87f63ff5be" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TotalOrderTest" />
+    </UnitTest>
+    <UnitTest name="AddingNewPriceTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="8fba5206-c817-777b-f026-74e0168015cb">
+      <Execution id="caacc24c-cb58-4622-9ab9-302c3b1fd57e" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddingNewPriceTest" />
+    </UnitTest>
+    <UnitTest name="AddTwoItemsTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="0681c31b-e684-6f83-210c-9413d98d4279">
+      <Execution id="a19b5fd6-b46e-4584-b769-8e75c5db24c8" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoItemsTest" />
+    </UnitTest>
+    <UnitTest name="NewProductNoQuantityTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="2b7be74e-9616-afa9-dab8-d6df7855b096">
+      <Execution id="f427ebcb-111a-42b1-adfe-9a6d99f7868b" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewProductNoQuantityTest" />
+    </UnitTest>
+    <UnitTest name="RemoveQuantityTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="9f7ced2f-854d-7c27-e06f-df0835b7b2f4">
+      <Execution id="4763a01a-1943-4e29-8b9d-89731ac92880" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveQuantityTest" />
+    </UnitTest>
+    <UnitTest name="ClearingTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="4ce13f29-fc11-8ce9-4dd1-a355d87818fa">
+      <Execution id="53e1c766-f3f6-40c9-a0a4-00defc841a83" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearingTest" />
+    </UnitTest>
+    <UnitTest name="RemoveMoreItemsThanQuantityTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="6c9f2763-d436-4f7e-8714-6d02c28a9f3d">
+      <Execution id="664c70df-8be5-4519-9ea8-4e34b5944c63" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveMoreItemsThanQuantityTest" />
+    </UnitTest>
+    <UnitTest name="RemoveItemsTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="bc6dd68c-b208-8ad5-dba6-97491f8d2289">
+      <Execution id="422203c8-64ea-49db-a6a5-19976be12636" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveItemsTest" />
+    </UnitTest>
+    <UnitTest name="RemoveWithoutQuantityTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="ab13b6e4-0227-b74c-0782-a6956e562f70">
+      <Execution id="a4f763c2-0af5-41f5-bb89-6ff58b82faf3" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveWithoutQuantityTest" />
+    </UnitTest>
+    <UnitTest name="AddOneItemTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="d98a5e88-2d22-52d4-e607-c4432f33d2f5">
+      <Execution id="14945c28-4005-4724-b1f8-6d7e536f4e2d" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddOneItemTest" />
+    </UnitTest>
+    <UnitTest name="AddTwoItemsDifferentLatestPriceTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="1bc4e48e-d37c-f632-fd35-20bbcb95c009">
+      <Execution id="14cc1430-a972-4211-953d-21abb5a09fad" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddTwoItemsDifferentLatestPriceTest" />
+    </UnitTest>
+    <UnitTest name="NewProductNoQuantityTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="c9f615fe-40b8-d372-6243-dc1db90d57f1">
+      <Execution id="0e2d2471-f6a9-4570-bef3-9e6ec40af7b6" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewProductNoQuantityTest" />
+    </UnitTest>
+    <UnitTest name="TwoProductsInListTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="7cbfcb15-1503-63e7-0201-073488bf12b2">
+      <Execution id="8997ed02-1b76-4d67-9009-5d85d96e547a" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoProductsInListTest" />
+    </UnitTest>
+    <UnitTest name="NewProductWithQuantityTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="403364d2-1043-e1d5-68ea-5c5e72bfff5b">
+      <Execution id="9eeb2ed7-9465-45ea-a4ff-33128517d62c" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.OrderItemTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewProductWithQuantityTest" />
+    </UnitTest>
+    <UnitTest name="AddingQuantityTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="7d336762-ff15-c1ea-4997-249ef9de5434">
+      <Execution id="62e055d4-81bd-4269-8ed7-683f9d04859b" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddingQuantityTest" />
+    </UnitTest>
+    <UnitTest name="NewProductWithQuantityTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="c6086f4a-f311-337d-f981-15601fea4e75">
+      <Execution id="607c7f43-1a13-4f4d-9252-0511b75efcab" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewProductWithQuantityTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0681c31b-e684-6f83-210c-9413d98d4279" executionId="a19b5fd6-b46e-4584-b769-8e75c5db24c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bc4e48e-d37c-f632-fd35-20bbcb95c009" executionId="14cc1430-a972-4211-953d-21abb5a09fad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24e4ce3a-9715-9471-b51d-9e40c14e3de8" executionId="cee373c4-211f-445e-873c-dd87f63ff5be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b7be74e-9616-afa9-dab8-d6df7855b096" executionId="f427ebcb-111a-42b1-adfe-9a6d99f7868b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="403364d2-1043-e1d5-68ea-5c5e72bfff5b" executionId="9eeb2ed7-9465-45ea-a4ff-33128517d62c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ce13f29-fc11-8ce9-4dd1-a355d87818fa" executionId="53e1c766-f3f6-40c9-a0a4-00defc841a83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c9f2763-d436-4f7e-8714-6d02c28a9f3d" executionId="664c70df-8be5-4519-9ea8-4e34b5944c63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cbfcb15-1503-63e7-0201-073488bf12b2" executionId="8997ed02-1b76-4d67-9009-5d85d96e547a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d336762-ff15-c1ea-4997-249ef9de5434" executionId="62e055d4-81bd-4269-8ed7-683f9d04859b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fba5206-c817-777b-f026-74e0168015cb" executionId="caacc24c-cb58-4622-9ab9-302c3b1fd57e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f7ced2f-854d-7c27-e06f-df0835b7b2f4" executionId="4763a01a-1943-4e29-8b9d-89731ac92880" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab13b6e4-0227-b74c-0782-a6956e562f70" executionId="a4f763c2-0af5-41f5-bb89-6ff58b82faf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbf55e7a-17ce-84d5-dfa5-64b3c7f05922" executionId="69846575-acd0-46f1-a083-6333d746f8fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc6dd68c-b208-8ad5-dba6-97491f8d2289" executionId="422203c8-64ea-49db-a6a5-19976be12636" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6086f4a-f311-337d-f981-15601fea4e75" executionId="607c7f43-1a13-4f4d-9252-0511b75efcab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9f615fe-40b8-d372-6243-dc1db90d57f1" executionId="0e2d2471-f6a9-4570-bef3-9e6ec40af7b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d98a5e88-2d22-52d4-e607-c4432f33d2f5" executionId="14945c28-4005-4724-b1f8-6d7e536f4e2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a19b5fd6-b46e-4584-b769-8e75c5db24c8" testId="0681c31b-e684-6f83-210c-9413d98d4279" testName="AddTwoItemsTest" computerName="STUDENT08" duration="00:00:00.0132496" startTime="2015-02-26T14:53:26.4550125+00:00" endTime="2015-02-26T14:53:26.6750251+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a19b5fd6-b46e-4584-b769-8e75c5db24c8">
+    </UnitTestResult>
+    <UnitTestResult executionId="14cc1430-a972-4211-953d-21abb5a09fad" testId="1bc4e48e-d37c-f632-fd35-20bbcb95c009" testName="AddTwoItemsDifferentLatestPriceTest" computerName="STUDENT08" duration="00:00:00.0007097" startTime="2015-02-26T14:53:26.6760252+00:00" endTime="2015-02-26T14:53:26.6800254+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14cc1430-a972-4211-953d-21abb5a09fad">
+    </UnitTestResult>
+    <UnitTestResult executionId="cee373c4-211f-445e-873c-dd87f63ff5be" testId="24e4ce3a-9715-9471-b51d-9e40c14e3de8" testName="TotalOrderTest" computerName="STUDENT08" duration="00:00:00.0006398" startTime="2015-02-26T14:53:26.6820255+00:00" endTime="2015-02-26T14:53:26.6880259+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cee373c4-211f-445e-873c-dd87f63ff5be">
+    </UnitTestResult>
+    <UnitTestResult executionId="f427ebcb-111a-42b1-adfe-9a6d99f7868b" testId="2b7be74e-9616-afa9-dab8-d6df7855b096" testName="NewProductNoQuantityTest" computerName="STUDENT08" duration="00:00:00.0013362" startTime="2015-02-26T14:53:26.6900260+00:00" endTime="2015-02-26T14:53:26.6940262+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f427ebcb-111a-42b1-adfe-9a6d99f7868b">
+    </UnitTestResult>
+    <UnitTestResult executionId="9eeb2ed7-9465-45ea-a4ff-33128517d62c" testId="403364d2-1043-e1d5-68ea-5c5e72bfff5b" testName="NewProductWithQuantityTest" computerName="STUDENT08" duration="00:00:00.0004025" startTime="2015-02-26T14:53:26.6960263+00:00" endTime="2015-02-26T14:53:26.7000266+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9eeb2ed7-9465-45ea-a4ff-33128517d62c">
+    </UnitTestResult>
+    <UnitTestResult executionId="53e1c766-f3f6-40c9-a0a4-00defc841a83" testId="4ce13f29-fc11-8ce9-4dd1-a355d87818fa" testName="ClearingTest" computerName="STUDENT08" duration="00:00:00.0007373" startTime="2015-02-26T14:53:26.7030267+00:00" endTime="2015-02-26T14:53:26.7080270+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53e1c766-f3f6-40c9-a0a4-00defc841a83">
+    </UnitTestResult>
+    <UnitTestResult executionId="664c70df-8be5-4519-9ea8-4e34b5944c63" testId="6c9f2763-d436-4f7e-8714-6d02c28a9f3d" testName="RemoveMoreItemsThanQuantityTest" computerName="STUDENT08" duration="00:00:00.0004521" startTime="2015-02-26T14:53:26.7110272+00:00" endTime="2015-02-26T14:53:26.7160275+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="664c70df-8be5-4519-9ea8-4e34b5944c63">
+    </UnitTestResult>
+    <UnitTestResult executionId="8997ed02-1b76-4d67-9009-5d85d96e547a" testId="7cbfcb15-1503-63e7-0201-073488bf12b2" testName="TwoProductsInListTest" computerName="STUDENT08" duration="00:00:00.0004967" startTime="2015-02-26T14:53:26.7190276+00:00" endTime="2015-02-26T14:53:26.7230279+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8997ed02-1b76-4d67-9009-5d85d96e547a">
+    </UnitTestResult>
+    <UnitTestResult executionId="62e055d4-81bd-4269-8ed7-683f9d04859b" testId="7d336762-ff15-c1ea-4997-249ef9de5434" testName="AddingQuantityTest" computerName="STUDENT08" duration="00:00:00.0003793" startTime="2015-02-26T14:53:26.7260280+00:00" endTime="2015-02-26T14:53:26.7290282+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62e055d4-81bd-4269-8ed7-683f9d04859b">
+    </UnitTestResult>
+    <UnitTestResult executionId="caacc24c-cb58-4622-9ab9-302c3b1fd57e" testId="8fba5206-c817-777b-f026-74e0168015cb" testName="AddingNewPriceTest" computerName="STUDENT08" duration="00:00:00.0007101" startTime="2015-02-26T14:53:26.7310283+00:00" endTime="2015-02-26T14:53:26.7360286+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="caacc24c-cb58-4622-9ab9-302c3b1fd57e">
+    </UnitTestResult>
+    <UnitTestResult executionId="4763a01a-1943-4e29-8b9d-89731ac92880" testId="9f7ced2f-854d-7c27-e06f-df0835b7b2f4" testName="RemoveQuantityTest" computerName="STUDENT08" duration="00:00:00.0006322" startTime="2015-02-26T14:53:26.7380287+00:00" endTime="2015-02-26T14:53:26.7420290+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4763a01a-1943-4e29-8b9d-89731ac92880">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4f763c2-0af5-41f5-bb89-6ff58b82faf3" testId="ab13b6e4-0227-b74c-0782-a6956e562f70" testName="RemoveWithoutQuantityTest" computerName="STUDENT08" duration="00:00:00.0008684" startTime="2015-02-26T14:53:26.7450291+00:00" endTime="2015-02-26T14:53:26.7500294+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4f763c2-0af5-41f5-bb89-6ff58b82faf3">
+    </UnitTestResult>
+    <UnitTestResult executionId="69846575-acd0-46f1-a083-6333d746f8fe" testId="bbf55e7a-17ce-84d5-dfa5-64b3c7f05922" testName="RemoveItemTest" computerName="STUDENT08" duration="00:00:00.0003090" startTime="2015-02-26T14:53:26.7530296+00:00" endTime="2015-02-26T14:53:26.7560298+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69846575-acd0-46f1-a083-6333d746f8fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="422203c8-64ea-49db-a6a5-19976be12636" testId="bc6dd68c-b208-8ad5-dba6-97491f8d2289" testName="RemoveItemsTest" computerName="STUDENT08" duration="00:00:00.0003083" startTime="2015-02-26T14:53:26.7590299+00:00" endTime="2015-02-26T14:53:26.7630302+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="422203c8-64ea-49db-a6a5-19976be12636">
+    </UnitTestResult>
+    <UnitTestResult executionId="607c7f43-1a13-4f4d-9252-0511b75efcab" testId="c6086f4a-f311-337d-f981-15601fea4e75" testName="NewProductWithQuantityTest" computerName="STUDENT08" duration="00:00:00.0003478" startTime="2015-02-26T14:53:26.7660303+00:00" endTime="2015-02-26T14:53:26.7700306+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="607c7f43-1a13-4f4d-9252-0511b75efcab">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e2d2471-f6a9-4570-bef3-9e6ec40af7b6" testId="c9f615fe-40b8-d372-6243-dc1db90d57f1" testName="NewProductNoQuantityTest" computerName="STUDENT08" duration="00:00:00.0003373" startTime="2015-02-26T14:53:26.7730307+00:00" endTime="2015-02-26T14:53:26.7770310+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e2d2471-f6a9-4570-bef3-9e6ec40af7b6">
+    </UnitTestResult>
+    <UnitTestResult executionId="14945c28-4005-4724-b1f8-6d7e536f4e2d" testId="d98a5e88-2d22-52d4-e607-c4432f33d2f5" testName="AddOneItemTest" computerName="STUDENT08" duration="00:00:00.0003003" startTime="2015-02-26T14:53:26.7830313+00:00" endTime="2015-02-26T14:53:26.7870315+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14945c28-4005-4724-b1f8-6d7e536f4e2d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

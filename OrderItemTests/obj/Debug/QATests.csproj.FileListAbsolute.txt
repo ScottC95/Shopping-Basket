@@ -1,0 +1,21 @@
+C:\Users\Administrator\Documents\C#\QA\OrderItemTests\bin\Debug\OrderItemTests.dll
+C:\Users\Administrator\Documents\C#\QA\OrderItemTests\bin\Debug\OrderItemTests.pdb
+C:\Users\Administrator\Documents\C#\QA\OrderItemTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\C#\QA\OrderItemTests\obj\Debug\OrderItemTests.dll
+C:\Users\Administrator\Documents\C#\QA\OrderItemTests\obj\Debug\OrderItemTests.pdb
+C:\Users\Administrator\Documents\C#\QA\OrderItemTests\bin\Debug\QA.dll
+C:\Users\Administrator\Documents\C#\QA\OrderItemTests\bin\Debug\QA.pdb
+C:\Users\ScottC\c#\QA\OrderItemTests\bin\Debug\OrderItemTests.dll
+C:\Users\ScottC\c#\QA\OrderItemTests\bin\Debug\OrderItemTests.pdb
+C:\Users\ScottC\c#\QA\OrderItemTests\bin\Debug\QA.dll
+C:\Users\ScottC\c#\QA\OrderItemTests\bin\Debug\QA.pdb
+C:\Users\ScottC\c#\QA\OrderItemTests\obj\Debug\QATests.csprojResolveAssemblyReference.cache
+C:\Users\ScottC\c#\QA\OrderItemTests\obj\Debug\OrderItemTests.dll
+C:\Users\ScottC\c#\QA\OrderItemTests\obj\Debug\OrderItemTests.pdb
+C:\Users\scommons\C#\QA V2\QA\OrderItemTests\bin\Debug\OrderItemTests.dll
+C:\Users\scommons\C#\QA V2\QA\OrderItemTests\bin\Debug\OrderItemTests.pdb
+C:\Users\scommons\C#\QA V2\QA\OrderItemTests\bin\Debug\QA.dll
+C:\Users\scommons\C#\QA V2\QA\OrderItemTests\bin\Debug\QA.pdb
+C:\Users\scommons\C#\QA V2\QA\OrderItemTests\obj\Debug\QATests.csprojResolveAssemblyReference.cache
+C:\Users\scommons\C#\QA V2\QA\OrderItemTests\obj\Debug\OrderItemTests.dll
+C:\Users\scommons\C#\QA V2\QA\OrderItemTests\obj\Debug\OrderItemTests.pdb

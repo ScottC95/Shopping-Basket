@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="098d1188-ab59-4866-9b00-2c7d56994f36" name="Administrator@STUDENT08 2015-02-26 14:29:49" runUser="STUDENT08\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b17f929f-9583-4fbc-b57c-501fd1e63686">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_STUDENT08 2015-02-26 14_29_49">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\C#\QA\QA\bin\Debug\QA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-26T14:29:49.8029847+00:00" queuing="2015-02-26T14:29:49.8459871+00:00" start="2015-02-26T14:29:49.8519875+00:00" finish="2015-02-26T14:29:50.5350266+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddingQuantity" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="a265239d-938f-b9b5-262e-f6430f8a9153">
+      <Execution id="ba9bc25c-530c-4e6b-931c-ead131cc1bc9" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddingQuantity" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a265239d-938f-b9b5-262e-f6430f8a9153" executionId="ba9bc25c-530c-4e6b-931c-ead131cc1bc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ba9bc25c-530c-4e6b-931c-ead131cc1bc9" testId="a265239d-938f-b9b5-262e-f6430f8a9153" testName="AddingQuantity" computerName="STUDENT08" duration="00:00:00.0144728" startTime="2015-02-26T14:29:49.8549877+00:00" endTime="2015-02-26T14:29:50.0720001+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba9bc25c-530c-4e6b-931c-ead131cc1bc9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

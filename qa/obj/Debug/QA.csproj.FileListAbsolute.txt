@@ -1,0 +1,14 @@
+C:\Users\Administrator\Documents\C#\QA\QA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\C#\QA\QA\bin\Debug\QA.dll
+C:\Users\Administrator\Documents\C#\QA\QA\bin\Debug\QA.pdb
+C:\Users\Administrator\Documents\C#\QA\QA\obj\Debug\QA.dll
+C:\Users\Administrator\Documents\C#\QA\QA\obj\Debug\QA.pdb
+C:\Users\ScottC\c#\QA\QA\bin\Debug\QA.dll
+C:\Users\ScottC\c#\QA\QA\bin\Debug\QA.pdb
+C:\Users\ScottC\c#\QA\QA\obj\Debug\QA.dll
+C:\Users\ScottC\c#\QA\QA\obj\Debug\QA.pdb
+C:\Users\scommons\C#\QA V2\QA\QA\bin\Debug\QA.dll
+C:\Users\scommons\C#\QA V2\QA\QA\bin\Debug\QA.pdb
+C:\Users\scommons\C#\QA V2\QA\QA\obj\Debug\QA.csprojResolveAssemblyReference.cache
+C:\Users\scommons\C#\QA V2\QA\QA\obj\Debug\QA.dll
+C:\Users\scommons\C#\QA V2\QA\QA\obj\Debug\QA.pdb

@@ -1,0 +1,47 @@
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\bin\Debug\ShoppingBasketApp.exe
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\bin\Debug\ShoppingBasketApp.pdb
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmShoppingBasket.resources
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.Properties.Resources.resources
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.exe
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.pdb
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\bin\Debug\QA.dll
+C:\Users\Administrator\Documents\C#\QA\ShoppingBasketApp\bin\Debug\QA.pdb
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.exe
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.pdb
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\bin\Debug\ShoppingBasketApp.exe
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\bin\Debug\ShoppingBasketApp.pdb
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\bin\Debug\QA.dll
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\bin\Debug\QA.pdb
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.csprojResolveAssemblyReference.cache
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmShoppingBasket.resources
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.Properties.Resources.resources
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.csproj.GenerateResource.Cache
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmRemoveQuantity.resources
+C:\Users\ScottC\c#\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmEdit.resources
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.exe
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.pdb
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\bin\Debug\ShoppingBasketApp.exe
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\bin\Debug\ShoppingBasketApp.pdb
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\bin\Debug\QA.dll
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\bin\Debug\QA.pdb
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.csprojResolveAssemblyReference.cache
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmEdit.resources
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmRemoveQuantity.resources
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmShoppingBasket.resources
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.Properties.Resources.resources
+C:\Users\scommons\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.csproj.GenerateResource.Cache
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.exe
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.pdb
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\bin\Debug\ShoppingBasketApp.exe
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\bin\Debug\ShoppingBasketApp.pdb
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\bin\Debug\QA.dll
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\bin\Debug\QA.pdb
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.csprojResolveAssemblyReference.cache
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmEdit.resources
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmRemoveQuantity.resources
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmShoppingBasket.resources
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.Properties.Resources.resources
+C:\Users\scommons\C#\C#\QA V2\QA\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.csproj.GenerateResource.Cache

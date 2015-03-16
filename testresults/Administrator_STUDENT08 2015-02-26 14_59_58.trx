@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2f932521-45ec-4077-878c-d41168e14e56" name="Administrator@STUDENT08 2015-02-26 14:59:58" runUser="STUDENT08\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b17f929f-9583-4fbc-b57c-501fd1e63686">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_STUDENT08 2015-02-26 14_59_58">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\C#\QA\QA\bin\Debug\QA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-26T14:59:58.3754291+00:00" queuing="2015-02-26T14:59:58.4334324+00:00" start="2015-02-26T14:59:58.4394328+00:00" finish="2015-02-26T14:59:58.6954474+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CurrentPriceIncorrectProductTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="0fbf2d7b-d5c8-818e-a9e4-3fe777412a4f">
+      <Execution id="08ef28db-aa5f-4e9b-8f83-7ae6e0fff5ca" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CurrentPriceIncorrectProductTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0fbf2d7b-d5c8-818e-a9e4-3fe777412a4f" executionId="08ef28db-aa5f-4e9b-8f83-7ae6e0fff5ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="08ef28db-aa5f-4e9b-8f83-7ae6e0fff5ca" testId="0fbf2d7b-d5c8-818e-a9e4-3fe777412a4f" testName="CurrentPriceIncorrectProductTest" computerName="STUDENT08" duration="00:00:00.0307025" startTime="2015-02-26T14:59:58.4424329+00:00" endTime="2015-02-26T14:59:58.6804466+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08ef28db-aa5f-4e9b-8f83-7ae6e0fff5ca">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method QATests.ShoppingBasketTests.CurrentPriceIncorrectProductTest threw exception: 
+System.InvalidOperationException: Product ABC not found</Message>
+          <StackTrace>    at QA.ShoppingBasket.CurrentPrice(String productName) in C:\Users\Administrator\Documents\C#\QA\QA\ShoppingBasket.cs:line 138
+   at QATests.ShoppingBasketTests.CurrentPriceIncorrectProductTest() in C:\Users\Administrator\Documents\C#\QA\OrderItemTests\ShoppingBasketTests.cs:line 291
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

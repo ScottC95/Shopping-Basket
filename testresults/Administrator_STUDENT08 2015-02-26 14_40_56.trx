@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0e9c56f8-31a9-4724-b0fa-0a4b08e35738" name="Administrator@STUDENT08 2015-02-26 14:40:56" runUser="STUDENT08\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b17f929f-9583-4fbc-b57c-501fd1e63686">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_STUDENT08 2015-02-26 14_40_56">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\C#\QA\QA\bin\Debug\QA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-26T14:40:56.6631269+00:00" queuing="2015-02-26T14:40:56.8571380+00:00" start="2015-02-26T14:40:56.8911399+00:00" finish="2015-02-26T14:40:57.2421600+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddingNewPriceTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="8fba5206-c817-777b-f026-74e0168015cb">
+      <Execution id="1c7db8d6-1940-4691-afa3-9d406b5a4f2d" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddingNewPriceTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8fba5206-c817-777b-f026-74e0168015cb" executionId="1c7db8d6-1940-4691-afa3-9d406b5a4f2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c7db8d6-1940-4691-afa3-9d406b5a4f2d" testId="8fba5206-c817-777b-f026-74e0168015cb" testName="AddingNewPriceTest" computerName="STUDENT08" duration="00:00:00.0157851" startTime="2015-02-26T14:40:56.9051407+00:00" endTime="2015-02-26T14:40:57.2241590+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c7db8d6-1940-4691-afa3-9d406b5a4f2d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

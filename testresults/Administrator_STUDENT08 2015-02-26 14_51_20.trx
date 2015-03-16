@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c9542bb3-ff9d-4414-9a83-e23f79fc35d7" name="Administrator@STUDENT08 2015-02-26 14:51:20" runUser="STUDENT08\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b17f929f-9583-4fbc-b57c-501fd1e63686">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Administrator\Documents\C#\QA\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Administrator_STUDENT08 2015-02-26 14_51_20">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\C#\QA\QA\bin\Debug\QA.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-02-26T14:51:20.3517999+00:00" queuing="2015-02-26T14:51:21.4328617+00:00" start="2015-02-26T14:51:21.5868705+00:00" finish="2015-02-26T14:51:43.4651219+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="STUDENT08" outcome="Error" timestamp="2015-02-26T14:51:43.4631217+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ClearingTest" storage="c:\users\administrator\documents\c#\qa\orderitemtests\bin\debug\orderitemtests.dll" id="4ce13f29-fc11-8ce9-4dd1-a355d87818fa">
+      <Execution id="b4496a58-c5a3-4b87-a40b-3ce418ea266d" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/C#/QA/OrderItemTests/bin/Debug/OrderItemTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QATests.ShoppingBasketTests, OrderItemTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearingTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4ce13f29-fc11-8ce9-4dd1-a355d87818fa" executionId="b4496a58-c5a3-4b87-a40b-3ce418ea266d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b4496a58-c5a3-4b87-a40b-3ce418ea266d" testId="4ce13f29-fc11-8ce9-4dd1-a355d87818fa" testName="ClearingTest" computerName="STUDENT08" duration="00:00:21.7372433" startTime="2015-02-26T14:51:21.7268785+00:00" endTime="2015-02-26T14:51:43.4641218+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4496a58-c5a3-4b87-a40b-3ce418ea266d">
+    </UnitTestResult>
+  </Results>
+</TestRun>
