@@ -187,7 +187,8 @@ namespace QA
             }
             else
             {
-                File.Create(fileName);
+                File.Create(fileName).Close();
+                
                 SaveBasket(fileName);
             }
             return true;
