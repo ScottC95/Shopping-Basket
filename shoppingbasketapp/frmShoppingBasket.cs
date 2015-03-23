@@ -15,6 +15,7 @@ namespace ShoppingBasketApp
     {
         private ShoppingBasket Basket = new ShoppingBasket();
         private int rowIndex = 0;
+        private List<string> loaded = new List<string>();
 
         public frmShoppingBasket()
         {
@@ -125,7 +126,7 @@ namespace ShoppingBasketApp
                 Basket.RemoveProduct(item.ProductName);
                 RenderBasket();
             }*/
-            
+
             if (dgvBasket.SelectedRows.Count > 0)
             {
                 string itemName = dgvBasket.SelectedRows[0].Cells[0].Value.ToString();
@@ -270,5 +271,40 @@ namespace ShoppingBasketApp
         {
             nudQuantity.Select(0, nudQuantity.Text.Length);
         }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+
+            string file = "";
+            OpenFileDialog browser = new OpenFileDialog();
+            if (browser.ShowDialog() == DialogResult.OK)
+            {
+                file = browser.FileName;
+                if (PreviousFileLoaded(file))
+                {
+                    DialogResult ans = MessageBox.Show(string.Format("The file {0} has already been loaded before, are you sure you want to load again? (Products will be duplicated)", file), "Loading" ,MessageBoxButtons.YesNo);
+                    if (ans == DialogResult.No)
+                    {
+                        return;
+                    }
+                }
+                Basket.LoadBasket(file);
+                RenderDGV();
+                loaded.Add(file);
+            }
+        }
+
+        private bool PreviousFileLoaded(string file)
+        {
+            for (int i = 0; i < loaded.Count; i++)
+            {
+                if (loaded[i] == file)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
     }
 }

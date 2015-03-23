@@ -50,6 +50,7 @@
             this.dgvBasket = new System.Windows.Forms.DataGridView();
             this.cmsRemove = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.deleteRowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnLoad = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBasket)).BeginInit();
             this.cmsRemove.SuspendLayout();
@@ -122,7 +123,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(27, 387);
+            this.label5.Location = new System.Drawing.Point(27, 395);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 13);
             this.label5.TabIndex = 7;
@@ -131,7 +132,7 @@
             // 
             // txtNumberOfItems
             // 
-            this.txtNumberOfItems.Location = new System.Drawing.Point(117, 384);
+            this.txtNumberOfItems.Location = new System.Drawing.Point(117, 392);
             this.txtNumberOfItems.Name = "txtNumberOfItems";
             this.txtNumberOfItems.Size = new System.Drawing.Size(43, 20);
             this.txtNumberOfItems.TabIndex = 10;
@@ -139,7 +140,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(367, 387);
+            this.label6.Location = new System.Drawing.Point(367, 395);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 13);
             this.label6.TabIndex = 9;
@@ -148,7 +149,7 @@
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(404, 384);
+            this.txtTotal.Location = new System.Drawing.Point(404, 392);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(96, 20);
             this.txtTotal.TabIndex = 11;
@@ -195,7 +196,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(542, 364);
+            this.btnExit.Location = new System.Drawing.Point(542, 381);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(87, 40);
             this.btnExit.TabIndex = 9;
@@ -227,7 +228,7 @@
             this.dgvBasket.Location = new System.Drawing.Point(32, 100);
             this.dgvBasket.MultiSelect = false;
             this.dgvBasket.Name = "dgvBasket";
-            this.dgvBasket.Size = new System.Drawing.Size(468, 262);
+            this.dgvBasket.Size = new System.Drawing.Size(468, 270);
             this.dgvBasket.TabIndex = 12;
             this.dgvBasket.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvBasket_CellMouseUp);
             // 
@@ -245,11 +246,21 @@
             this.deleteRowToolStripMenuItem.Text = "Delete Row";
             this.deleteRowToolStripMenuItem.Click += new System.EventHandler(this.deleteRowToolStripMenuItem_Click);
             // 
+            // btnLoad
+            // 
+            this.btnLoad.Location = new System.Drawing.Point(542, 330);
+            this.btnLoad.Name = "btnLoad";
+            this.btnLoad.Size = new System.Drawing.Size(87, 40);
+            this.btnLoad.TabIndex = 8;
+            this.btnLoad.Text = "Load";
+            this.btnLoad.UseVisualStyleBackColor = true;
+            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
+            // 
             // frmShoppingBasket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 419);
+            this.ClientSize = new System.Drawing.Size(653, 433);
             this.Controls.Add(this.dgvBasket);
             this.Controls.Add(this.nudQuantity);
             this.Controls.Add(this.label6);
@@ -260,6 +271,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnEdit);
@@ -303,5 +315,6 @@
         private System.Windows.Forms.DataGridView dgvBasket;
         private System.Windows.Forms.ContextMenuStrip cmsRemove;
         private System.Windows.Forms.ToolStripMenuItem deleteRowToolStripMenuItem;
+        private System.Windows.Forms.Button btnLoad;
     }
 }

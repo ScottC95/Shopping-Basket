@@ -173,12 +173,11 @@ namespace QA
                 {
                     StreamWriter sw = new StreamWriter(fileName, true);
                     sw.AutoFlush = true;
-                    sw.WriteLine();
-                    sw.WriteLine(string.Format("{0}", DateTime.Now));
                     foreach (OrderItem items in Products)
                     {
-                        string s = string.Format("{0} \t\t {1} \t\t {2:C} \t\t {3:C}", items.ProductName, items.Quantity, items.LatestPrice, items.TotalOrder);
-                        sw.WriteLine(s);
+                        sw.WriteLine(items.ProductName);
+                        sw.WriteLine(items.Quantity);
+                        sw.WriteLine(items.LatestPrice);
                     }
                     sw.Close();
                     return true;
@@ -188,10 +187,34 @@ namespace QA
             else
             {
                 File.Create(fileName).Close();
-                
                 SaveBasket(fileName);
             }
             return true;
+        }
+
+        public bool LoadBasket(string filePath)
+        {
+            if (!FileOpen(filePath))
+            {
+                StreamReader sr = new StreamReader(filePath);
+                List<string> lines = new List<string>();
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    lines.Add(line);
+                }
+                for (int i = 0; i < lines.Count - 1; i += 3)
+                {
+                    string name = lines[i], quantity = lines[i + 1], price = lines[i + 2];
+                    int quantityInt;
+                    int.TryParse(quantity, out quantityInt);
+                    decimal priceDecimal;
+                    decimal.TryParse(price, out priceDecimal);
+                    AddProduct(name, priceDecimal, quantityInt);
+                }
+                sr.Close();
+            }
+            return false;
         }
 
         public bool FileOpen(string fileName)

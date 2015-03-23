@@ -26,10 +26,5 @@ namespace ShoppingBasketApp
         {
             DialogResult = DialogResult.OK;
         }
-
-        private void frmRemoveQuantity_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -83,7 +83,6 @@
             this.Controls.Add(this.label1);
             this.Name = "frmRemoveQuantity";
             this.Text = "frmRemoveQuantity";
-            this.Load += new System.EventHandler(this.frmRemoveQuantity_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
