@@ -15,7 +15,7 @@ namespace ShoppingBasketApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmShoppingBasket());
+            Application.Run(new frmLogin());
         }
     }
 }

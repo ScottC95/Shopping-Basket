@@ -283,6 +283,7 @@
             this.Controls.Add(this.txtProductName);
             this.Name = "frmShoppingBasket";
             this.Text = "Shopping Basket";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmShoppingBasket_FormClosed);
             this.Load += new System.EventHandler(this.frmShoppingBasket_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBasket)).EndInit();

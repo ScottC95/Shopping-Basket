@@ -16,6 +16,7 @@ namespace ShoppingBasketApp
         private ShoppingBasket Basket = new ShoppingBasket();
         private int rowIndex = 0;
         private List<string> loaded = new List<string>();
+        public bool admin;
 
         public frmShoppingBasket()
         {
@@ -24,23 +25,14 @@ namespace ShoppingBasketApp
 
         private void frmShoppingBasket_Load(object sender, EventArgs e)
         {
-            //RenderBasket();
             CultureInfo.CreateSpecificCulture("en-GB");
-        }
-
-        /*
-        private void RenderBasket()
-        {
-            txtNumberOfItems.Text = Basket.NumberOfItems.ToString();
-            txtTotal.Text = Basket.BasketTotal.ToString("C2");
-            lbBasket.Items.Clear();
-            foreach (OrderItem item in Basket.Products)
+            if (!admin)
             {
-                string ProductDetails = string.Format("{0} \t\t {1} \t\t {2:C} \t\t {3:C}", item.ProductName, item.Quantity, item.LatestPrice, item.TotalOrder);
-                lbBasket.Items.Add(ProductDetails);
+                btnRemove.Enabled = false;
+                btnRemoveQuantity.Enabled = false;
+                btnCancel.Enabled = false;
             }
         }
-        */
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -306,5 +298,10 @@ namespace ShoppingBasketApp
             return false;
         }
 
+        private void frmShoppingBasket_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //Application doesn't exit normally on close, so i force it. 
+            System.Windows.Forms.Application.Exit();
+        }
     }
 }

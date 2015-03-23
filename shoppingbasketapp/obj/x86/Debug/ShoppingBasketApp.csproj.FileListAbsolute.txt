@@ -57,3 +57,4 @@ C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Deb
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmShoppingBasket.resources
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.Properties.Resources.resources
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.csproj.GenerateResource.Cache
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmLogin.resources
