@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace ShoppingBasketApp
 {
@@ -18,7 +19,7 @@ namespace ShoppingBasketApp
         {
             InitializeComponent();
         }
-
+        byte[] encrypted;
         private void frmLogin_Load(object sender, EventArgs e)
         {
             logins = new List<LoginData>();
@@ -26,6 +27,35 @@ namespace ShoppingBasketApp
             logins.Add(user);
             LoginData admin = new LoginData("123", "ABC", true);
             logins.Add(admin);
+
+            ////
+            string password = "ABC";
+            MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();
+            UTF8Encoding utf = new UTF8Encoding();
+            TripleDESCryptoServiceProvider tDES = new TripleDESCryptoServiceProvider();
+            tDES.Key = md5.ComputeHash(utf.GetBytes("ABCD4321"));
+            tDES.Mode = CipherMode.ECB;
+            tDES.Padding = PaddingMode.PKCS7;
+            ICryptoTransform trans = tDES.CreateEncryptor();
+            encrypted = trans.TransformFinalBlock(utf.GetBytes(password), 0, utf.GetBytes(password).Length);
+            password = utf.GetString(encrypted);
+            MessageBox.Show(password);
+            string s = decrypt();
+            MessageBox.Show(s);
+            
+        }
+
+        public string decrypt()
+        {
+            MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();
+            UTF8Encoding utf = new UTF8Encoding();
+            TripleDESCryptoServiceProvider tDES = new TripleDESCryptoServiceProvider();
+            tDES.Key = md5.ComputeHash(utf.GetBytes("ABCD4321"));
+            tDES.Mode = CipherMode.ECB;
+            tDES.Padding = PaddingMode.PKCS7;
+            ICryptoTransform trans = tDES.CreateDecryptor();
+            string pass = utf.GetString(trans.TransformFinalBlock(encrypted, 0, encrypted.Length));
+            return pass;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

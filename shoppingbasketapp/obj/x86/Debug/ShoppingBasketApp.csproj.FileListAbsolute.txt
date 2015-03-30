@@ -58,3 +58,10 @@ C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Deb
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.Properties.Resources.resources
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.csproj.GenerateResource.Cache
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\obj\x86\Debug\ShoppingBasketApp.frmLogin.resources
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\ShoppingBasketApp\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

@@ -14,6 +14,12 @@ C:\Users\scommons\C#\QA V2\QA\QA\obj\Debug\QA.dll
 C:\Users\scommons\C#\QA V2\QA\QA\obj\Debug\QA.pdb
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\QA.dll
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\QA.pdb
-C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\obj\Debug\QA.csprojResolveAssemblyReference.cache
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\obj\Debug\QA.dll
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\obj\Debug\QA.pdb
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

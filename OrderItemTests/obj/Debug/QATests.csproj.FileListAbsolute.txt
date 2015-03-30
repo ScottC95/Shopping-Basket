@@ -26,3 +26,10 @@ C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\bin\Debug\QA.p
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\obj\Debug\QATests.csprojResolveAssemblyReference.cache
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\obj\Debug\OrderItemTests.dll
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\obj\Debug\OrderItemTests.pdb
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\OrderItemTests\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
