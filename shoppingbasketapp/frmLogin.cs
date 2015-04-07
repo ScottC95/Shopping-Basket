@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using QA;
 
 namespace ShoppingBasketApp
 {
@@ -14,10 +15,15 @@ namespace ShoppingBasketApp
     {
         public List<LoginData> logins { get; private set; }
 
+        private Login _login;
+
+        private string _path = "";
 
         public frmLogin()
         {
             InitializeComponent();
+            
+
         }
         byte[] encrypted;
         private void frmLogin_Load(object sender, EventArgs e)
@@ -42,9 +48,19 @@ namespace ShoppingBasketApp
             MessageBox.Show(password);
             string s = decrypt();
             MessageBox.Show(s);
+
+            OpenFileDialog openFile = new OpenFileDialog();
+            if (openFile.ShowDialog() == DialogResult.OK)
+            {
+                _path = openFile.FileName;
+                _login = new Login();
+
+            }
             
         }
 
+        
+        
         public string decrypt()
         {
             MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();

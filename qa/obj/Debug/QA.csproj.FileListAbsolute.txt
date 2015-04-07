@@ -23,3 +23,4 @@ C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practi
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.Unity.xml
 C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\scommons\Documents\GitHub\Shopping-Basket\QA\obj\Debug\QA.csprojResolveAssemblyReference.cache

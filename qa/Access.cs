@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Security.Cryptography;
+using System.Data.OleDb;
+using System.Data;
 
 namespace QA
 {
@@ -12,6 +14,21 @@ namespace QA
         private string _filePath;
 
         private List<User> _allUsers;
+
+        private OleDbConnection _conn = new OleDbConnection();
+        private DataSet _dtasetLogin = new DataSet();
+        private string _sqlQuery = "";
+        private OleDbDataAdapter adapter;
+
+        enum type
+        {
+            none,
+            username = 1,
+            password = 2,
+            email = 3
+
+        };
+
 
         public Access(string filePath)
         {
@@ -28,6 +45,50 @@ namespace QA
                 new User("user", "abc", "scott@gmail.com"),
                 new User("admin", "123", "scottc@gmail.com")
             };
+
+            
+            _conn.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + _filePath;
+            _sqlQuery = "SELECT * FROM tblLogin";
+            OleDbDataAdapter adapter = new OleDbDataAdapter(_sqlQuery, _conn);
+            adapter.Fill(_dtasetLogin, "Login");
+
+            foreach (DataRow dr in _dtasetLogin.Tables[0].Rows)
+            {
+                
+            }
+
+            string username, password, email;
+
+            
+
+            for (int i = 0; i < _dtasetLogin.Tables[0].Rows.Count ; i++)
+			{
+			    for (int n = 0; n < 3; n++)
+			    {
+                    switch (n)
+                    {
+                        case 0:
+                            {
+                                username = _dtasetLogin.Tables[0].Rows[i][n].ToString();
+                                return;
+                            }
+                        case 1:
+                            {
+                                return;
+                            }
+                        case 2:
+                            {
+                                return;
+                            }
+                        default:
+                            return;
+              
+                    } 
+			    }
+                //_allUsers.Add(new User(_dtasetLogin.Tables[0].Rows[i][n],
+			}
+
+
         }
 
         #region IDataRepository Members

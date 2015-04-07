@@ -4,18 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
+using System.Data.OleDb;
+using System.Data;
+using System.Windows.Forms;
 
 namespace QA
 {
-    class Login
+    public class Login
     {
         private IDataRepository _repository;
         private List<LoggedInUsers> _userSessions;
+        public string _filePath;
+        
 
         public Login()
         {
-            //TODO: make _repository = access database
-            //_repository = new 
+            //TODO: make _repository = access database + Put in Provider
+            OpenFileDialog openFile = new OpenFileDialog();
+            if (openFile.ShowDialog() == DialogResult.OK)
+            {
+                _repository = new Access(openFile.FileName);
+            }            
         }
 
         #region User
@@ -65,5 +74,7 @@ namespace QA
         }
 
         #endregion
+
     }
+
 }
